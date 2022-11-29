@@ -7,8 +7,8 @@ mod mandlebrot;
 fn main() {
     let num_frames = 1;
     let start_frame = 0;
-    
     let max_iter = 255;
+    
     let size = 512;
     let sx = size;
     let sy = size;
@@ -16,9 +16,7 @@ fn main() {
     let ww = 3.0; // window width
     let wh = 3.0; // window height
 
-    let cx = 2.2; // center
-    // let cy = 1.5;
-
+    let cx = 2.2;
     // let cx = 1.5; // center for julia
     let cy = 1.5;
 
